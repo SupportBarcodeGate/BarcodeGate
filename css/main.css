@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Oswald:400,500,600,700');
+body
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	background: #FFFFFF;
+	color: #000000;
+}
+/****************
+Main Head
+*****************/
+
+.main_H
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+    background: rgba(255,255,255,1);
+}
+.logo a
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 35px;
+	font-weight: 500;
+	color: #000000;
+	line-height: 0.75;
+}
+.main_N{
+	max-width: 100% ;
+	margin: auto ;
+	margin-left: 100px;
+}
+.main_N a
+{
+	padding: 30px ;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	color: #000000;
+	white-space: nowrap;
+}
+.Head_Box{
+	max-width: 90% ;
+	margin: auto ;
+	margin-top: 2%;
+}
+.header_content
+{
+	width: 100%;
+	height: 80px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
